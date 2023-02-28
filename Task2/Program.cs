@@ -39,8 +39,7 @@ int numberB = Convert.ToInt32(Console.ReadLine());
 if (numberA == numberB * numberB)
 {
     Console.WriteLine(numberA + " является квадратом числа " + numberB);
-} else
-{
+} else 
     if (numberB == numberA * numberA)
     {
         Console.WriteLine(numberB + " является квадратом числа " + numberA);
@@ -48,4 +47,3 @@ if (numberA == numberB * numberB)
     {
         Console.WriteLine("Ни одно число не является квадратом другого");
     }
-}
