@@ -8,10 +8,8 @@
 // 85 -> 8
 
 
-// Console.WriteLine();
-// Console.ReadLine();
+
 Random rand = new Random();
-// rand.Next(10, 100);
 int number = rand.Next(10, 100);
 Console.WriteLine("Случайное число " + number);
 int max = number /10;
