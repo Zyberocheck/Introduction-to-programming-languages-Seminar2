@@ -6,10 +6,10 @@
 // 34, 5 -> не кратно, остаток 4 
 // 16, 4 -> кратно
 
-Console.WriteLine("Введите первое число");
-int numberA = Convert.ToInt32(Console.ReadLine());
-Console.WriteLine("Введите 2 число");
-int numberB = Convert.ToInt32(Console.ReadLine());
+// Console.WriteLine("Введите первое число");
+// int numberA = Convert.ToInt32(Console.ReadLine());
+// Console.WriteLine("Введите 2 число");
+// int numberB = Convert.ToInt32(Console.ReadLine());
 
 // if ( numberA % numberB == 0)
 // Console.WriteLine( numberA + " кратно " + numberB);
@@ -19,7 +19,7 @@ int numberB = Convert.ToInt32(Console.ReadLine());
 // Console.WriteLine ("Остаток от деления: " + numberA % numberB );
 // }
 
-string result = numberA%numberB == 0? "Первое число кратно второму":$"Первое некратно второму. Остаток от деления = {numberA%numberB}";
+// string result = numberA%numberB == 0? "Первое число кратно второму":$"Первое некратно второму. Остаток от деления = {numberA%numberB}";
 
 // Задача №14.
 // Напишите программу, которая принимает на 
