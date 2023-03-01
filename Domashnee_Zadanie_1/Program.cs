@@ -6,10 +6,14 @@
 // 782 -> 8
 // 918 -> 1
 
-
-Console.WriteLine(" Введите трехзначное число: ");
-int number = Convert.ToInt32(Console.ReadLine());
-if (number = )
+Random random = new Random();
+int number = random.Next(100, 1000);
+Console.WriteLine("Компухтер имеет 3-х значное число: " + number);
+int numberA = number / 10 % 10;
+if (numberA >= 0)
 {
-    
+    Console.WriteLine("А нам доравал только второе: " + numberA);
+} else
+{
+    Console.WriteLine("Компухтер не даровал нам чисел(((");
 }
