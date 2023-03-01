@@ -8,11 +8,11 @@
 
 Random random = new Random();
 int number = random.Next(100, 1000);
-Console.WriteLine("Компухтер имеет 3-х значное число: " + number);
+Console.WriteLine("В армии Дайнерис бурерожденной: " + number + " драконов");
 int numberA = number / 10 % 10;
 if (numberA >= 0)
 {
-    Console.WriteLine("А нам доравал только второе: " + numberA);
+    Console.WriteLine("А нам она доравала только: " + numberA);
 } else
 {
     Console.WriteLine("Компухтер не даровал нам чисел(((");
