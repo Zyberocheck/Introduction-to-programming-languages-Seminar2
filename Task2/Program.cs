@@ -5,18 +5,18 @@
 // 782 -> 72
 // 918 -> 98
 
-// Random rand = new Random();
-// int num = rand.Next(100, 1000);
-// Console.WriteLine(num);
-// Console.WriteLine($"{num / 100}{num % 10}");
+Random rand = new Random();
+int num = rand.Next(100, 1000);
+Console.WriteLine(num);
+Console.WriteLine($"{num / 100}{num % 10}");
 
-// Random rand = new Random();
-// int num = rand.Next(100, 1000);
-// Console.WriteLine("Сгенерировано число " + num);
-// int a = num / 100;
-// int b = num % 10;
-// Console.Write(a);
-// Console.Write(b);
+Random rand = new Random();
+int num = rand.Next(100, 1000);
+Console.WriteLine("Сгенерировано число " + num);
+int a = num / 100;
+int b = num % 10;
+Console.Write(a);
+Console.Write(b);
 
 
 
